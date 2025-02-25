@@ -31,9 +31,9 @@ public class Carro {
 		return preco;}
 	
 	public void Informa_carro() {
-		System.out.println(getMarca());
-		System.out.println(getModelo());
-		System.out.println(getCor());
-		System.out.println(getPreco());
+		System.out.println("Marca: " + getMarca());
+		System.out.println("Modelo: " + getModelo());
+		System.out.println("Cor: " + getCor());
+		System.out.println("Preco: " + getPreco());
 	}
 }
