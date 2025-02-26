@@ -7,8 +7,6 @@ public class Registra_Contribuinte {
 		
 		Dados_Contribuinte dados = new Dados_Contribuinte();
 		
-		String nome, CPF, CNPJ, cartao;
-		
 		dados.setNome(JOptionPane.showInputDialog("digite o nome: "));
 		dados.setCPF(JOptionPane.showInputDialog("digite o CPF: "));
 		dados.setCNPJ(JOptionPane.showInputDialog("digite o CNPJ: "));
